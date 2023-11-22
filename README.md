@@ -19,7 +19,7 @@ Background
 
 You can run these python codes by installing the requisite software in your computer, or online through [Google Colab](https://colab.research.google.com/).
 
-1. **Suggested:** In case you cannot install Python locally on your computer, you may run the codes through [Google Colab](https://colab.research.google.com/) by clicking on the links to the jupyter notebooks below, then clicking on the "Open in Colab" button at the top of the notebook. This will work on any computer, mobile or tablet that has internet access and a standard web browser like Google Chrome, Microsoft Edge, Firefox or whatever. However, these codes will run on colab servers, rather than locally on your computer. This is usually not a problem, although the servers might be slow.
+1. **Suggested:** If you can't install Python locally, you can run the codes through [Google Colab](https://colab.research.google.com/) by clicking on the links to the jupyter notebooks below and then hitting "Open in Colab" at the top. This works on any computer, smartphone, or tablet with internet connectivity and a web browser like Chrome, Edge, Firefox, etc. These scripts will execute on colab servers, not your machine. Although servers may be slow, this is usually not a problem.
 
 2. In order to run these programs locally in your computer (instead of Google Colab), perform the following steps.
 
@@ -27,22 +27,22 @@ You can run these python codes by installing the requisite software in your comp
        
      * Then, download this repository by cloning it using GitHub Desktop (see [this doc](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)  for details).
        
-     * Finally, download and install the anaconda python distribution (anaconda @ https://www.anaconda.com/). Anaconda includes [Jupyter notebooks](https://jupyter.org/) and the [Spyder IDE](https://www.spyder-ide.org/), either of which can be readily used for designing and running python code. Also, see [this blog entry](https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html) on how to install anaconda.
+     * Anaconda (https://www.anaconda.com/) should be downloaded and installed last. [Jupyter notebooks](https://jupyter.org/) or the [Spyder IDE](https://www.spyder-ide.org/) can be used to design and run Python code in Anaconda. See [this blog post](https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html) for anaconda installation instructions.
 
 3. If you're having problems with Git, and do not want to use Google Colab, you can simply copy-paste the codes individually into your local python setup:
    
    * Click on the "Copy raw contents" button on the top-right corner of the github page of a particular code (to the right of the 'Blame' button).
    
-   * Then, paste it into a text editor or a running python IDE like [Spyder](https://www.spyder-ide.org/) or [Pydroid](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) in order to execute it. 
+   * Then, paste it into a text editor or a running python IDE like [Spyder](https://www.spyder-ide.org/) or [IDLE](https://docs.python.org/3.11/library/idle.html) in order to execute it. 
    
-   * **However**, this will only work for regular Python, not for Jupyter notebooks. For the latter, you can either run them in Google Colab, or copy-paste each code cell from the jupyter notebook to a local Python file in your device. This should work well on Android devices, where it is difficult to run jupyter locally. Note, however, that IPython magics won't work in regular Python, and you'll have to delete or rewrite them.
+   * **However**, this only works for normal Python, not Jupyter notebooks. You can run them in Google Colab or copy-paste each code cell from the jupyter notebook to a local Python file on your device. In standard Python, IPython magics won't work, so delete or rewrite them.
 
 List of Tutorials and Codes
 =========================
 
 Use the following links:
 
-## Scientific Python Tutorials:
+## Computational Physics in Python: Learning Materials:
 
 * [Scientific Python Tutorials (including numpy and matplotlib)](https://github.com/hariseldon99/scientific-python-lectures)
 
@@ -50,12 +50,14 @@ Use the following links:
 
 * [Quantum Harmonic Oscillator using NumPy and Matplotlib](https://github.com/hariseldon99/Quantum-Harmonic-Numpy)
 
-## Computational Physics in Python, Lecture Slides:
+* [Computational Physics in Python, Lecture Notes](https://github.com/hariseldon99/Lecture_Notes.odp)
 
+* [SfePy: Simple Finite Elements in Python](https://sfepy.org/), including [extensive documentation](https://sfepy.org/doc-devel/documentation.html) and [theoretical background](https://sfepy.org/doc-devel/theory.html).
 
 ## Computational Physics in Python, Example Codes:
 
 * [Examples of Partial Differential Equations using Finite Difference Method](PDE_FDM.ipynb)
+* [Examples of Partial Differential Equations using Finite Element Method](PDE_FEM.ipynb)
 * [Examples of Quantum Physics using QutiP](QUTIP.ipynb)
 * [Examples of Fast Fourier Transforms (FFT)](FFT.ipynb)
 * [Examples of the Monte carlo Method](MC.ipynb)
