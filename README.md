@@ -30,11 +30,16 @@ You can run these python codes by installing the requisite software in your comp
      * Anaconda (https://www.anaconda.com/) should be downloaded and installed last. [Jupyter notebooks](https://jupyter.org/) or the [Spyder IDE](https://www.spyder-ide.org/) can be used to design and run Python code in Anaconda. See [this blog post](https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html) for anaconda installation instructions.
      
 	* Optionally, if you need to do the Finite Element Method (FEM) computations, you might want to install the [SfePy](https://sfepy.org/) package.
-Load a shell with the anaconda base environment activated.  On Windows, this can be done by opening the "Anaconda PowerShell Prompt" from "Start Menu". See the image below for details.
+Load a shell with the anaconda base environment activated.  
+
+		On Windows, this can be done by opening the "Anaconda PowerShell Prompt" from "Start Menu". See the image below for details.
 [![Alt text](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)
-Now, run the command given below: 
+	On Linux, simply start a [terminal emulator](https://www.linfo.org/terminal_window.html) like [gnome-terminal](https://help.ubuntu.com/community/GnomeTerminal) and activate anaconda with the shell command "conda activate".
+	
+		Next, run the commands given below: 
 		```console
-		conda install sfepy
+		(base) PS C:\Users~1> conda config --add channels conda-forge
+		(base) PS C:\Users~1> conda install sfepy
 		```
 		**Note that** you might want to install sfepy in a fresh conda environment. [See this link for details](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 3. If you're having problems with Git, and do not want to use Google Colab, you can simply copy-paste the codes individually into your local python setup:
