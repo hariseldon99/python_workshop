@@ -50,7 +50,7 @@ Use the following links:
 
 * [Quantum Harmonic Oscillator using NumPy and Matplotlib](https://github.com/hariseldon99/Quantum-Harmonic-Numpy)
 
-* [Computational Physics in Python, Lecture Notes](https://github.com/hariseldon99/Lecture_Notes.odp)
+* [Computational Physics in Python, Lecture Notes](Lecture_Notes.odp)
 
 * [SfePy: Simple Finite Elements in Python](https://sfepy.org/), including [extensive documentation](https://sfepy.org/doc-devel/documentation.html) and [theoretical background](https://sfepy.org/doc-devel/theory.html).
 
