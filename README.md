@@ -28,7 +28,15 @@ You can run these python codes by installing the requisite software in your comp
      * Then, download this repository by cloning it using GitHub Desktop (see [this doc](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)  for details).
        
      * Anaconda (https://www.anaconda.com/) should be downloaded and installed last. [Jupyter notebooks](https://jupyter.org/) or the [Spyder IDE](https://www.spyder-ide.org/) can be used to design and run Python code in Anaconda. See [this blog post](https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html) for anaconda installation instructions.
-
+     
+	* Optionally, if you need to do the Finite Element Method (FEM) computations, you might want to install the [SfePy](https://sfepy.org/) package.
+Load a shell with the anaconda base environment activated.  On Windows, this can be done by opening the "Anaconda PowerShell Prompt" from "Start Menu". See the image below for details.
+[![Alt text](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)
+Now, run the command given below: 
+		```console
+		conda install sfepy
+		```
+		**Note that** you might want to install sfepy in a fresh conda environment. [See this link for details](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 3. If you're having problems with Git, and do not want to use Google Colab, you can simply copy-paste the codes individually into your local python setup:
    
    * Click on the "Copy raw contents" button on the top-right corner of the github page of a particular code (to the right of the 'Blame' button).
@@ -44,7 +52,8 @@ Use the following links:
 
 ## Computational Physics in Python: Learning Materials:
 
-* [Computational Physics in Python, Lecture Notes](Lecture_Notes.odp)
+* [Lecture Notes (ODP with animations)](Lecture_Notes.odp) 
+* [Lecture Notes (PDF without animations)](Lecture_Notes.pdf)
 
 
 ## Computational Physics in Python, Example Codes:
@@ -53,7 +62,7 @@ Use the following links:
 * [Examples of Partial Differential Equations using Finite Element Method](PDE_FEM.ipynb)
 * [Examples of Quantum Physics using QutiP](QUTIP.ipynb)
 * [Examples of Fast Fourier Transforms (FFT)](FFT.ipynb)
-* [Examples of the Monte carlo Method](MC.ipynb)
+* [Examples of the Monte Carlo Method](MC.ipynb)
 
 
 ## Computational Physics in Python: Background Materials:
@@ -63,7 +72,6 @@ Use the following links:
 * [Quick Introduction to polynomials in NumPy](https://kitchingroup.cheme.cmu.edu/blog/2013/01/22/Polynomials-in-python/)
 
 * [Quantum Harmonic Oscillator using NumPy and Matplotlib](https://github.com/hariseldon99/Quantum-Harmonic-Numpy)
-
 
 * [SfePy: Simple Finite Elements in Python](https://sfepy.org/), including [extensive documentation](https://sfepy.org/doc-devel/documentation.html) and [theoretical background](https://sfepy.org/doc-devel/theory.html).
 
