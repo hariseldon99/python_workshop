@@ -44,15 +44,8 @@ Use the following links:
 
 ## Computational Physics in Python: Learning Materials:
 
-* [Scientific Python Tutorials (including numpy and matplotlib)](https://github.com/hariseldon99/scientific-python-lectures)
-
-* [Quick Introduction to polynomials in NumPy](https://kitchingroup.cheme.cmu.edu/blog/2013/01/22/Polynomials-in-python/)
-
-* [Quantum Harmonic Oscillator using NumPy and Matplotlib](https://github.com/hariseldon99/Quantum-Harmonic-Numpy)
-
 * [Computational Physics in Python, Lecture Notes](Lecture_Notes.odp)
 
-* [SfePy: Simple Finite Elements in Python](https://sfepy.org/), including [extensive documentation](https://sfepy.org/doc-devel/documentation.html) and [theoretical background](https://sfepy.org/doc-devel/theory.html).
 
 ## Computational Physics in Python, Example Codes:
 
@@ -61,6 +54,18 @@ Use the following links:
 * [Examples of Quantum Physics using QutiP](QUTIP.ipynb)
 * [Examples of Fast Fourier Transforms (FFT)](FFT.ipynb)
 * [Examples of the Monte carlo Method](MC.ipynb)
+
+
+## Computational Physics in Python: Background Materials:
+
+* [Scientific Python Tutorials (including numpy and matplotlib)](https://github.com/hariseldon99/scientific-python-lectures)
+
+* [Quick Introduction to polynomials in NumPy](https://kitchingroup.cheme.cmu.edu/blog/2013/01/22/Polynomials-in-python/)
+
+* [Quantum Harmonic Oscillator using NumPy and Matplotlib](https://github.com/hariseldon99/Quantum-Harmonic-Numpy)
+
+
+* [SfePy: Simple Finite Elements in Python](https://sfepy.org/), including [extensive documentation](https://sfepy.org/doc-devel/documentation.html) and [theoretical background](https://sfepy.org/doc-devel/theory.html).
 
 License
 =======
