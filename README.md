@@ -28,20 +28,36 @@ You can run these python codes by installing the requisite software in your comp
      * Then, download this repository by cloning it using GitHub Desktop (see [this doc](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)  for details).
        
      * Anaconda (https://www.anaconda.com/) should be downloaded and installed last. [Jupyter notebooks](https://jupyter.org/) or the [Spyder IDE](https://www.spyder-ide.org/) can be used to design and run Python code in Anaconda. See [this blog post](https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html) for anaconda installation instructions.
-     
-	* Optionally, if you need to do the Finite Element Method (FEM) computations, you might want to install the [SfePy](https://sfepy.org/) package.
+            
+     * Optionally, if you need to do the Finite Element Method (FEM) computations, you might want to install the [SfePy](https://sfepy.org/) package.
 Load a shell with the anaconda base environment activated.  
 
 		On Windows, this can be done by opening the "Anaconda PowerShell Prompt" from "Start Menu". See the image below for details.
-[![Alt text](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)
-	On Linux, simply start a [terminal emulator](https://www.linfo.org/terminal_window.html) like [gnome-terminal](https://help.ubuntu.com/community/GnomeTerminal) and activate anaconda with the shell command "conda activate".
+
+		[![Alt text](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)](https://shaileshjha.com/wp-content/uploads/2020/03/windows_start_menu_anaconda_powershell_prompt.jpg)
 	
-		Next, run the commands given below: 
+		On Linux, simply start a [terminal emulator](https://www.linfo.org/terminal_window.html) like [gnome-terminal](https://help.ubuntu.com/community/GnomeTerminal) and activate anaconda with the shell command
+		```console
+		$ conda activate base
+		```
+		
+ 		Next, run the commands given below:
 		```console
 		(base) PS C:\Users~1> conda config --add channels conda-forge
 		(base) PS C:\Users~1> conda install sfepy
 		```
 		**Note that** you might want to install sfepy in a fresh conda environment. [See this link for details](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+   
+	* **Recommended:** The default version of python in anaconda can be a little old. I would suggest that you update the python to at least [version 3.11](https://www.python.org/downloads/release/python-3110/) in a fresh conda environment. To check if the default version is older than 3.11, open the Anaconda PowerShell Prompt as described above and run the following command
+	```console
+	(base) PS C:\Users~1> python --version
+	```
+	If the version is older than 3.11, then run the following commands to create an environment (named 'exercises') with python version 3.11 inside it, then install all necessary packages and activate the environment for use.
+	```console
+	(base) PS C:\Users~1> conda config --add channels conda-forge
+	(base) PS C:\Users~1> conda create -n exercises python=3.11 numpy scipy matplotlib qutip sfepy
+	(base) PS C:\Users~1> conda activate exercises
+	```
 3. If you're having problems with Git, and do not want to use Google Colab, you can simply copy-paste the codes individually into your local python setup:
    
    * Click on the "Copy raw contents" button on the top-right corner of the github page of a particular code (to the right of the 'Blame' button).
