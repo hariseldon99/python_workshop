@@ -83,7 +83,7 @@ Use the following links:
 * [Examples of Fast Fourier Transforms (FFT)](FFT.ipynb)
 * [Examples of Quantum Physics using QutiP](QUTIP.ipynb)
 * [Examples of the Monte Carlo Method](MC.ipynb)
-* [The Ising Model using the Metropolis Algorithm](Metrop_ising.ipynb)
+* [The Ising Model using the Metropolis Algorithm](Metrop_Ising.ipynb)
 * [Examples of Partial Differential Equations using Finite Difference Method](PDE_FDM.ipynb)
 
 ## Computational Physics in Python: Background Materials:
