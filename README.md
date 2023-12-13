@@ -86,6 +86,8 @@ Use the following links:
 * [The Ising Model using the Metropolis Algorithm](Metrop_Ising.ipynb)
 * [Examples of Partial Differential Equations using Finite Difference Method](PDE_FDM.ipynb)
 
+* [Extra: Estimate the value of pi by Monte Carlo Method (in parallel)](parallel_pi.py)
+
 ## Computational Physics in Python: Background Materials:
 
 * [Scientific Python Tutorials (including numpy and matplotlib)](https://github.com/hariseldon99/scientific-python-lectures)
