@@ -85,6 +85,7 @@ Use the following links:
 * [Examples of the Monte Carlo Method](MC.ipynb)
 * [The Ising Model using the Metropolis Algorithm](Metrop_Ising.ipynb)
 * [Examples of Partial Differential Equations using Finite Difference Method](PDE_FDM.ipynb)
+* [Example of High-Precision Linear Algebra in Python](mpmath_linalg.ipynb)
 
 * [Extra: Estimate the value of pi by Monte Carlo Method (in parallel)](parallel_pi.py)
 
